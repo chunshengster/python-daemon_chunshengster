@@ -1,1 +1,4 @@
-This file was created by PyCharm 1.5.3 for binding GitHub repository
+基于python_daemon 1.5.5 patch,计划增加如下功能：
+ １，启动时检查该进行是否已经运行
+ ２，停止时检查是否已经启动，并禁止掉错误
+ ３，启动时对log文件的open操作符调整为 a (原来为w)
